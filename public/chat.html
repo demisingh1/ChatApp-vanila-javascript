@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Chat App</h2>
+    <form action="" id="chat-form">
+        <div>
+            <label for="msg">Enter Message</label>
+            <input class="msg-input" id="msg" type="text" name="msg" value="Enter message here" />
+        </div>
+        <button>Send</button>
+    </form>
+    <div class="chat-area">
+        <div>
+            <h4 class=" msg-time">Time</h4>
+            <h2 class="umsg">Hellow message</h2>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.13.0/qs.min.js" integrity="sha512-LGi3LadLxI4NfDCsvTQ+Ps8dmV3PK7QUNFMEPyqpfFI78fu9YUXPRRVHIOH9xS5OLz035SSTH2Mc2Tzau+l7BA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/socket.io/socket.io.js" >    
+    </script>
+    <script src="main.js" ></script>
+</body>
+</html>
